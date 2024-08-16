@@ -1,0 +1,11 @@
+name: Calculate (some) DORA metrics
+on: workflow_dispatch
+jobs:
+  calculate-dora-metrics:
+      runs-on: ubuntu-latest
+      name: Calculate Lead time for changes & Deployment frequency
+      steps:
+        - uses: DeveloperMetrics/lead-time-for-changes@main
+          with:
+            workflows: 'Tests and Dependabot PR Handling'
+            owner-repo: 'SonarSource/sonarlint-vscode'
