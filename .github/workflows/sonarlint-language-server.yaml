@@ -9,3 +9,4 @@ jobs:
           with:
             workflows: 'Lead time for changes'
             owner-repo: 'SonarSource/sonarlint-language-server'
+            default-branch: 'master'
