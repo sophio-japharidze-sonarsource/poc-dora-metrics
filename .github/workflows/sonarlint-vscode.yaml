@@ -1,11 +1,11 @@
-name: Calculate (some) DORA metrics
+name: Calculate PR merge time for SLVSCODE
 on: workflow_dispatch
 jobs:
   calculate-dora-metrics:
       runs-on: ubuntu-latest
-      name: Calculate Lead time for changes & Deployment frequency
+      name: Calculate Lead time for changes
       steps:
         - uses: DeveloperMetrics/lead-time-for-changes@main
           with:
-            workflows: 'Tests and Dependabot PR Handling'
+            workflows: 'Lead time for changes'
             owner-repo: 'SonarSource/sonarlint-vscode'

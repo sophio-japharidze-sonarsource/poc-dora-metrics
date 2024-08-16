@@ -1,0 +1,11 @@
+name: Calculate PR merge time for SLI
+on: workflow_dispatch
+jobs:
+  calculate-dora-metrics:
+      runs-on: ubuntu-latest
+      name: Calculate Lead time for changes
+      steps:
+        - uses: DeveloperMetrics/lead-time-for-changes@main
+          with:
+            workflows: 'Lead time for changes'
+            owner-repo: 'SonarSource/sonarlint-intellij'
