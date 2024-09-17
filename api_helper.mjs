@@ -20,8 +20,17 @@ export async function getAllPRs(repository) {
 }
 
 export async function getPrsMergeTimes(repository, startDate, endDate) {
-	const url = `https://api.github.com/repos/SonarSource/${repository}/pulls?state=closed&base=master&per_page=100`;
-	const allClosedPrs = await fetchData(url);
+	let url = `https://api.github.com/repos/SonarSource/${repository}/pulls?state=closed&base=master`;
+	const allClosedPrs = [];
+	const perPage = 100;
+
+	for (let page = 1; page < 4; page++) {
+		const url = `https://api.github.com/repos/SonarSource/${repository}/pulls?state=closed&base=master&per_page=${perPage}&page=${page}`;
+        const closedPrs = await fetchData(url);
+        allClosedPrs.push(...closedPrs);
+	}
+
+	await fetchData(url);
 	const mergedPrsInTimeFrame = allClosedPrs.filter(pr =>  pr.merged_at !== null
 		 && moment(pr.created_at).isAfter(moment(startDate))
 		  && moment(pr.created_at).isBefore(moment(endDate)));
