@@ -38,8 +38,8 @@ function calculateAverage(array) {
 		const averageDurationQ2 = calculateAverage(durationsQ2);
 		const averageDurationQ3 = calculateAverage(durationsQ3);
 		console.log('-----------------------------------');
-		console.log(`Average PR duration for ${repository} in Q1: ${averageDurationQ1} hours`);
-		console.log(`Average PR duration for ${repository} in Q2: ${averageDurationQ2} hours`);
-		console.log(`Average PR duration for ${repository} in Q3: ${averageDurationQ3} hours`);
+		console.log(`Average PR duration for ${repository} in Q1: ${averageDurationQ1} hours over ${durationsQ1.length} PRs`);
+		console.log(`Average PR duration for ${repository} in Q2: ${averageDurationQ2} hours over ${durationsQ2.length} PRs`);
+		console.log(`Average PR duration for ${repository} in Q3: ${averageDurationQ3} hours over ${durationsQ3.length} PRs`);
 	});
 })();
