@@ -7,39 +7,39 @@
 
 -----------------------------------
 
-- Average PR duration for sonarlint-core in Q1: 96 hours over 69 PRs
-- Average PR duration for sonarlint-core in Q2: 58 hours over 75 PRs
-- Average PR duration for sonarlint-core in Q3: 53 hours over 42 PRs
+- Median PR duration for sonarlint-core in Q1: 21 hours over 69 PRs
+- Median PR duration for sonarlint-core in Q2: 19 hours over 75 PRs
+- Median PR duration for sonarlint-core in Q3: 3 hours over 47 PRs
 
 -----------------------------------
 
-- Average PR duration for sonarlint-eclipse in Q1: 74 hours over 41 PRs
-- Average PR duration for sonarlint-eclipse in Q2: 39 hours	over 50 PRs
-- Average PR duration for sonarlint-eclipse in Q3: 31 hours over 41 PRs
+- Median PR duration for sonarlint-eclipse in Q1: 16 hours over 41 PRs
+- Median PR duration for sonarlint-eclipse in Q2: 5 hours	over 50 PRs
+- Median PR duration for sonarlint-eclipse in Q3: 2 hours over 47 PRs
 
 -----------------------------------
 
-- Average PR duration for sonarlint-intellij in Q1: 36 hours over 78 PRs
-- Average PR duration for sonarlint-intellij in Q2: 56 hours over 40 PRs
-- Average PR duration for sonarlint-intellij in Q3: 43 hours over 60 PRs
+- Median PR duration for sonarlint-intellij in Q1: 6 hours over 78 PRs
+- Median PR duration for sonarlint-intellij in Q2: 4 hours over 40 PRs
+- Median PR duration for sonarlint-intellij in Q3: 20 hours over 64 PRs
 
 -----------------------------------
 
-- Average PR duration for sonarlint-language-server in Q1: 57 hours over 18 PRs
-- Average PR duration for sonarlint-language-server in Q2: 97 hours over 20 PRs
-- Average PR duration for sonarlint-language-server in Q3: 87 hours over 17 PRs
+- Median PR duration for sonarlint-language-server in Q1: 24 hours over 18 PRs
+- Median PR duration for sonarlint-language-server in Q2: 19 hours over 20 PRs
+- Median PR duration for sonarlint-language-server in Q3: 22 hours over 20 PRs
 
 -----------------------------------
 
-- Average PR duration for sonarlint-vscode in Q1: 122 hours over 31 PRs
-- Average PR duration for sonarlint-vscode in Q2: 46 hours over 31 PRs
-- Average PR duration for sonarlint-vscode in Q3: 57 hours over 25 PRs
+- Median PR duration for sonarlint-vscode in Q1: 47 hours over 31 PRs
+- Median PR duration for sonarlint-vscode in Q2: 2 hours over 31 PRs
+- Median PR duration for sonarlint-vscode in Q3: 10 hours over 26 PRs
 
 -----------------------------------
 
-- Average PR duration for sonarlint-visualstudio in Q1: 8 hours over 9 PRs
-- Average PR duration for sonarlint-visualstudio in Q2: 50 hours over 13 PRs
-- Average PR duration for sonarlint-visualstudio in Q3: 45 hours over 28 PRs
+- Median PR duration for sonarlint-visualstudio in Q1: 1 hours over 9 PRs
+- Median PR duration for sonarlint-visualstudio in Q2: 2 hours over 13 PRs
+- Median PR duration for sonarlint-visualstudio in Q3: 5 hours over 30 PRs
 
 
 #### Over 300 PRs per repository, those that have been merged to a branch **OTHER THAN master**, average time it took for a PR to be merged in hours.
